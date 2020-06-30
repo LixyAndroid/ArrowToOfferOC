@@ -7,11 +7,28 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "FindrepeatNumber.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        NSLog(@"Hello, World!");
+        
+        NSMutableArray *arr = [[NSMutableArray alloc] initWithArray:@[@1, @10,@5,@2, @3, @4, @5,@2]];
+        
+        
+        FindrepeatNumber *findrepeatNumber = [[FindrepeatNumber alloc] init];
+        
+        NSInteger num = [findrepeatNumber methods:arr];
+        
+        NSLog(@"%d",num);
+      
+        
     }
     return 0;
 }
+
+
+
+
+
+

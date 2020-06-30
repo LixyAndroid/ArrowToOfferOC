@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface FindrepeatNumber : NSObject
 
+-(NSInteger) methods: (NSMutableArray *) nums;
+
 @end
 
 NS_ASSUME_NONNULL_END
