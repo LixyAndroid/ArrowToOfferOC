@@ -137,8 +137,6 @@
     if(!tree || !tree.data){
         return 0;
     }
-    
-    
     //存在节点，则自身深度为1
     //总深度由子树深度决定
     NSInteger leftChildTreeDepth = [self pGetDepthOfBinaryTree:tree.leftChild];
