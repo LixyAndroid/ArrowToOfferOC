@@ -17,7 +17,7 @@ int main(int argc, const char * argv[]) {
     return 0;
 }
 
-NSInteger maxDepth(TreeNode root){
+NSInteger maxDepth(TreeNode *root){
     if (!root) {
         return 0;
     }
