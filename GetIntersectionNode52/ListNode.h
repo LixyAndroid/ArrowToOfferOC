@@ -15,7 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (assign, nonatomic) NSInteger val;
 @property (strong, nonatomic) ListNode *next;
 
-- (instancetype)initWithData:(int)data;
+- (instancetype)initWithData:(int)x;
 @end
 
 NS_ASSUME_NONNULL_END
