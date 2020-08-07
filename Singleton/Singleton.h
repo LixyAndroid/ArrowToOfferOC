@@ -13,7 +13,9 @@ NS_ASSUME_NONNULL_BEGIN
 @interface Singleton : NSObject
 
 // + 表示静态方法
-+ (Singleton *)shardInstance;
++ (instancetype)shardInstance;
+
++ (instancetype)shardInstanceDispatch;
 
 @end
 

@@ -8,19 +8,26 @@
 
 #import "Singleton.h"
 
-static Singleton *instance = nil;
-
 @implementation Singleton
 
 //使用@synchronized加锁，不过虽然保证了线程安全但是由于锁的存在当多线程访问时，性能会降低
-+ (Singleton *)shardInstance {
-    
++ (instancetype)shardInstance {
+    static Singleton *instance;
     @synchronized (self) {
         if (!instance) {
-            instance = [[super alloc] init];
+            instance = [self new];
         }
     }
     return instance;
 }
++ (instancetype)shardInstanceDispatch{
+    static Singleton *instance;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        instance = [self new];
+    });
+    return instance;
+}
+
 
 @end
