@@ -50,6 +50,15 @@
 		ABD1BD1C24D563B20098DB30 /* IsValid0020UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD1BD1B24D563B20098DB30 /* IsValid0020UITests.m */; };
 		ABD1BD2924D5641E0098DB30 /* LXYStack.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD1BD2824D5641E0098DB30 /* LXYStack.m */; };
 		ABD7654824D9BBB9005C2A42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD7654724D9BBB9005C2A42 /* main.m */; };
+		ABF489D924FDE666004215AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF489D824FDE666004215AA /* AppDelegate.m */; };
+		ABF489DC24FDE666004215AA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF489DB24FDE666004215AA /* SceneDelegate.m */; };
+		ABF489DF24FDE666004215AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF489DE24FDE666004215AA /* ViewController.m */; };
+		ABF489E224FDE666004215AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF489E024FDE666004215AA /* Main.storyboard */; };
+		ABF489E424FDE668004215AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABF489E324FDE668004215AA /* Assets.xcassets */; };
+		ABF489E724FDE668004215AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF489E524FDE668004215AA /* LaunchScreen.storyboard */; };
+		ABF489EA24FDE668004215AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF489E924FDE668004215AA /* main.m */; };
+		ABF489F424FDE668004215AA /* GCDDeadlockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF489F324FDE668004215AA /* GCDDeadlockTests.m */; };
+		ABF489FF24FDE668004215AA /* GCDDeadlockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF489FE24FDE668004215AA /* GCDDeadlockUITests.m */; };
 		ABFAA7CB24AB888600616059 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFAA7CA24AB888600616059 /* main.m */; };
 		ABFAA7D624AB88FC00616059 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFAA7D524AB88FC00616059 /* main.m */; };
 		ABFAA7DC24AB891100616059 /* LinkNode.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFAA7DB24AB891100616059 /* LinkNode.m */; };
@@ -71,6 +80,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = ABD1BCF124D563B00098DB30;
 			remoteInfo = IsValid0020;
+		};
+		ABF489F024FDE668004215AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11A19CBB24AADFFF008E4FD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABF489D424FDE666004215AA;
+			remoteInfo = GCDDeadlock;
+		};
+		ABF489FB24FDE668004215AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11A19CBB24AADFFF008E4FD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABF489D424FDE666004215AA;
+			remoteInfo = GCDDeadlock;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -390,6 +413,24 @@
 		ABD1BD2824D5641E0098DB30 /* LXYStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LXYStack.m; path = ValidateStackSequences31/LXYStack.m; sourceTree = SOURCE_ROOT; };
 		ABD7654524D9BBB9005C2A42 /* NthUglyNumber49 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NthUglyNumber49; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABD7654724D9BBB9005C2A42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABF489D524FDE666004215AA /* GCDDeadlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GCDDeadlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF489D724FDE666004215AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABF489D824FDE666004215AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABF489DA24FDE666004215AA /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		ABF489DB24FDE666004215AA /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		ABF489DD24FDE666004215AA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ABF489DE24FDE666004215AA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ABF489E124FDE666004215AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABF489E324FDE668004215AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABF489E624FDE668004215AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABF489E824FDE668004215AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABF489E924FDE668004215AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABF489EF24FDE668004215AA /* GCDDeadlockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GCDDeadlockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF489F324FDE668004215AA /* GCDDeadlockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDDeadlockTests.m; sourceTree = "<group>"; };
+		ABF489F524FDE668004215AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABF489FA24FDE668004215AA /* GCDDeadlockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GCDDeadlockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF489FE24FDE668004215AA /* GCDDeadlockUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDDeadlockUITests.m; sourceTree = "<group>"; };
+		ABF48A0024FDE668004215AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABFAA7C824AB888600616059 /* BinarySearch */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BinarySearch; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABFAA7CA24AB888600616059 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ABFAA7D324AB88FC00616059 /* ReverseLinkList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ReverseLinkList; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -578,6 +619,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ABF489D224FDE666004215AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF489EC24FDE668004215AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF489F724FDE668004215AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ABFAA7C524AB888600616059 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -644,6 +706,9 @@
 				AB3DE44D24D6E214000E3693 /* MaxProfit63 */,
 				AB7FC49A24D84C3500593AD0 /* GetKthFromEnd22 */,
 				ABD7654624D9BBB9005C2A42 /* NthUglyNumber49 */,
+				ABF489D624FDE666004215AA /* GCDDeadlock */,
+				ABF489F224FDE668004215AA /* GCDDeadlockTests */,
+				ABF489FD24FDE668004215AA /* GCDDeadlockUITests */,
 				11A19CC424AAE000008E4FD6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -679,6 +744,9 @@
 				AB7FC49924D84C3500593AD0 /* GetKthFromEnd22 */,
 				AB7FC4A724D865EE00593AD0 /* Permutation38 */,
 				ABD7654524D9BBB9005C2A42 /* NthUglyNumber49 */,
+				ABF489D524FDE666004215AA /* GCDDeadlock.app */,
+				ABF489EF24FDE668004215AA /* GCDDeadlockTests.xctest */,
+				ABF489FA24FDE668004215AA /* GCDDeadlockUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -899,6 +967,42 @@
 				ABD7654724D9BBB9005C2A42 /* main.m */,
 			);
 			path = NthUglyNumber49;
+			sourceTree = "<group>";
+		};
+		ABF489D624FDE666004215AA /* GCDDeadlock */ = {
+			isa = PBXGroup;
+			children = (
+				ABF489D724FDE666004215AA /* AppDelegate.h */,
+				ABF489D824FDE666004215AA /* AppDelegate.m */,
+				ABF489DA24FDE666004215AA /* SceneDelegate.h */,
+				ABF489DB24FDE666004215AA /* SceneDelegate.m */,
+				ABF489DD24FDE666004215AA /* ViewController.h */,
+				ABF489DE24FDE666004215AA /* ViewController.m */,
+				ABF489E024FDE666004215AA /* Main.storyboard */,
+				ABF489E324FDE668004215AA /* Assets.xcassets */,
+				ABF489E524FDE668004215AA /* LaunchScreen.storyboard */,
+				ABF489E824FDE668004215AA /* Info.plist */,
+				ABF489E924FDE668004215AA /* main.m */,
+			);
+			path = GCDDeadlock;
+			sourceTree = "<group>";
+		};
+		ABF489F224FDE668004215AA /* GCDDeadlockTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABF489F324FDE668004215AA /* GCDDeadlockTests.m */,
+				ABF489F524FDE668004215AA /* Info.plist */,
+			);
+			path = GCDDeadlockTests;
+			sourceTree = "<group>";
+		};
+		ABF489FD24FDE668004215AA /* GCDDeadlockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABF489FE24FDE668004215AA /* GCDDeadlockUITests.m */,
+				ABF48A0024FDE668004215AA /* Info.plist */,
+			);
+			path = GCDDeadlockUITests;
 			sourceTree = "<group>";
 		};
 		ABFAA7C924AB888600616059 /* BinarySearch */ = {
@@ -1359,6 +1463,59 @@
 			productReference = ABD7654524D9BBB9005C2A42 /* NthUglyNumber49 */;
 			productType = "com.apple.product-type.tool";
 		};
+		ABF489D424FDE666004215AA /* GCDDeadlock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABF48A0724FDE668004215AA /* Build configuration list for PBXNativeTarget "GCDDeadlock" */;
+			buildPhases = (
+				ABF489D124FDE666004215AA /* Sources */,
+				ABF489D224FDE666004215AA /* Frameworks */,
+				ABF489D324FDE666004215AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GCDDeadlock;
+			productName = GCDDeadlock;
+			productReference = ABF489D524FDE666004215AA /* GCDDeadlock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABF489EE24FDE668004215AA /* GCDDeadlockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABF48A0824FDE668004215AA /* Build configuration list for PBXNativeTarget "GCDDeadlockTests" */;
+			buildPhases = (
+				ABF489EB24FDE668004215AA /* Sources */,
+				ABF489EC24FDE668004215AA /* Frameworks */,
+				ABF489ED24FDE668004215AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABF489F124FDE668004215AA /* PBXTargetDependency */,
+			);
+			name = GCDDeadlockTests;
+			productName = GCDDeadlockTests;
+			productReference = ABF489EF24FDE668004215AA /* GCDDeadlockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABF489F924FDE668004215AA /* GCDDeadlockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABF48A0924FDE668004215AA /* Build configuration list for PBXNativeTarget "GCDDeadlockUITests" */;
+			buildPhases = (
+				ABF489F624FDE668004215AA /* Sources */,
+				ABF489F724FDE668004215AA /* Frameworks */,
+				ABF489F824FDE668004215AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABF489FC24FDE668004215AA /* PBXTargetDependency */,
+			);
+			name = GCDDeadlockUITests;
+			productName = GCDDeadlockUITests;
+			productReference = ABF489FA24FDE668004215AA /* GCDDeadlockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		ABFAA7C724AB888600616059 /* BinarySearch */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABFAA7CE24AB888600616059 /* Build configuration list for PBXNativeTarget "BinarySearch" */;
@@ -1496,6 +1653,17 @@
 					ABD7654424D9BBB9005C2A42 = {
 						CreatedOnToolsVersion = 11.6;
 					};
+					ABF489D424FDE666004215AA = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					ABF489EE24FDE668004215AA = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = ABF489D424FDE666004215AA;
+					};
+					ABF489F924FDE668004215AA = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = ABF489D424FDE666004215AA;
+					};
 					ABFAA7C724AB888600616059 = {
 						CreatedOnToolsVersion = 11.5;
 					};
@@ -1548,6 +1716,9 @@
 				AB7FC49824D84C3500593AD0 /* GetKthFromEnd22 */,
 				AB7FC4A624D865EE00593AD0 /* Permutation38 */,
 				ABD7654424D9BBB9005C2A42 /* NthUglyNumber49 */,
+				ABF489D424FDE666004215AA /* GCDDeadlock */,
+				ABF489EE24FDE668004215AA /* GCDDeadlockTests */,
+				ABF489F924FDE668004215AA /* GCDDeadlockUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -1571,6 +1742,30 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		ABD1BD1524D563B20098DB30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF489D324FDE666004215AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF489E724FDE668004215AA /* LaunchScreen.storyboard in Resources */,
+				ABF489E424FDE668004215AA /* Assets.xcassets in Resources */,
+				ABF489E224FDE666004215AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF489ED24FDE668004215AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF489F824FDE668004215AA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1795,6 +1990,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ABF489D124FDE666004215AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF489DF24FDE666004215AA /* ViewController.m in Sources */,
+				ABF489D924FDE666004215AA /* AppDelegate.m in Sources */,
+				ABF489EA24FDE668004215AA /* main.m in Sources */,
+				ABF489DC24FDE666004215AA /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF489EB24FDE668004215AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF489F424FDE668004215AA /* GCDDeadlockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF489F624FDE668004215AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF489FF24FDE668004215AA /* GCDDeadlockUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ABFAA7C424AB888600616059 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1834,6 +2056,16 @@
 			target = ABD1BCF124D563B00098DB30 /* IsValid0020 */;
 			targetProxy = ABD1BD1824D563B20098DB30 /* PBXContainerItemProxy */;
 		};
+		ABF489F124FDE668004215AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABF489D424FDE666004215AA /* GCDDeadlock */;
+			targetProxy = ABF489F024FDE668004215AA /* PBXContainerItemProxy */;
+		};
+		ABF489FC24FDE668004215AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABF489D424FDE666004215AA /* GCDDeadlock */;
+			targetProxy = ABF489FB24FDE668004215AA /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -1849,6 +2081,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				ABD1BD0324D563B10098DB30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		ABF489E024FDE666004215AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABF489E124FDE666004215AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABF489E524FDE668004215AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABF489E624FDE668004215AA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -2458,6 +2706,123 @@
 			};
 			name = Release;
 		};
+		ABF48A0124FDE668004215AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GCDDeadlock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vipshop.GCDDeadlock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABF48A0224FDE668004215AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GCDDeadlock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vipshop.GCDDeadlock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABF48A0324FDE668004215AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GCDDeadlockTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vipshop.GCDDeadlockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GCDDeadlock.app/GCDDeadlock";
+			};
+			name = Debug;
+		};
+		ABF48A0424FDE668004215AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GCDDeadlockTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vipshop.GCDDeadlockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GCDDeadlock.app/GCDDeadlock";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABF48A0524FDE668004215AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GCDDeadlockUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vipshop.GCDDeadlockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GCDDeadlock;
+			};
+			name = Debug;
+		};
+		ABF48A0624FDE668004215AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GCDDeadlockUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vipshop.GCDDeadlockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GCDDeadlock;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		ABFAA7CC24AB888600616059 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2751,6 +3116,33 @@
 			buildConfigurations = (
 				ABD7654924D9BBB9005C2A42 /* Debug */,
 				ABD7654A24D9BBB9005C2A42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABF48A0724FDE668004215AA /* Build configuration list for PBXNativeTarget "GCDDeadlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF48A0124FDE668004215AA /* Debug */,
+				ABF48A0224FDE668004215AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABF48A0824FDE668004215AA /* Build configuration list for PBXNativeTarget "GCDDeadlockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF48A0324FDE668004215AA /* Debug */,
+				ABF48A0424FDE668004215AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABF48A0924FDE668004215AA /* Build configuration list for PBXNativeTarget "GCDDeadlockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF48A0524FDE668004215AA /* Debug */,
+				ABF48A0624FDE668004215AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
