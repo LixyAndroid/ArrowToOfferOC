@@ -61,6 +61,15 @@
 		AB7FC49C24D84C3500593AD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7FC49B24D84C3500593AD0 /* main.m */; };
 		AB7FC4A224D84C4A00593AD0 /* ListNode.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7FC4A124D84C4A00593AD0 /* ListNode.m */; };
 		AB82432124C9C9BA0063339B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB82432024C9C9BA0063339B /* main.m */; };
+		AB881C2B2515E06900073CE7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB881C2A2515E06900073CE7 /* AppDelegate.m */; };
+		AB881C2E2515E06900073CE7 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB881C2D2515E06900073CE7 /* SceneDelegate.m */; };
+		AB881C312515E06900073CE7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB881C302515E06900073CE7 /* ViewController.m */; };
+		AB881C342515E06900073CE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB881C322515E06900073CE7 /* Main.storyboard */; };
+		AB881C362515E06B00073CE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB881C352515E06B00073CE7 /* Assets.xcassets */; };
+		AB881C392515E06B00073CE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB881C372515E06B00073CE7 /* LaunchScreen.storyboard */; };
+		AB881C3C2515E06B00073CE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB881C3B2515E06B00073CE7 /* main.m */; };
+		AB881C462515E06B00073CE7 /* TheCountdownTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB881C452515E06B00073CE7 /* TheCountdownTests.m */; };
+		AB881C512515E06B00073CE7 /* TheCountdownUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB881C502515E06B00073CE7 /* TheCountdownUITests.m */; };
 		AB92E19924D6A46200A17D3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB92E19824D6A46200A17D3B /* main.m */; };
 		AB92E19F24D6A48900A17D3B /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = AB92E19E24D6A48900A17D3B /* Node.m */; };
 		ABAB6FAB24B37075004F0743 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAB6FAA24B37075004F0743 /* main.m */; };
@@ -150,6 +159,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = AB63DB29250BB76C00E7825C;
 			remoteInfo = hahagame;
+		};
+		AB881C422515E06B00073CE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11A19CBB24AADFFF008E4FD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB881C262515E06900073CE7;
+			remoteInfo = TheCountdown;
+		};
+		AB881C4D2515E06B00073CE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11A19CBB24AADFFF008E4FD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB881C262515E06900073CE7;
+			remoteInfo = TheCountdown;
 		};
 		ABD1BD0D24D563B10098DB30 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -559,6 +582,24 @@
 		AB7FC4A724D865EE00593AD0 /* Permutation38 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Permutation38; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB82431E24C9C9BA0063339B /* MinPathSum0064 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MinPathSum0064; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB82432024C9C9BA0063339B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB881C272515E06900073CE7 /* TheCountdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheCountdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB881C292515E06900073CE7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB881C2A2515E06900073CE7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB881C2C2515E06900073CE7 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		AB881C2D2515E06900073CE7 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		AB881C2F2515E06900073CE7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AB881C302515E06900073CE7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AB881C332515E06900073CE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB881C352515E06B00073CE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB881C382515E06B00073CE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB881C3A2515E06B00073CE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB881C3B2515E06B00073CE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB881C412515E06B00073CE7 /* TheCountdownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheCountdownTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB881C452515E06B00073CE7 /* TheCountdownTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheCountdownTests.m; sourceTree = "<group>"; };
+		AB881C472515E06B00073CE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB881C4C2515E06B00073CE7 /* TheCountdownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheCountdownUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB881C502515E06B00073CE7 /* TheCountdownUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheCountdownUITests.m; sourceTree = "<group>"; };
+		AB881C522515E06B00073CE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB92E19624D6A46200A17D3B /* CopyRandomList35 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CopyRandomList35; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB92E19824D6A46200A17D3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AB92E19D24D6A48900A17D3B /* Node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
@@ -811,6 +852,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AB881C242515E06900073CE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB881C3E2515E06B00073CE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB881C492515E06B00073CE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AB92E19324D6A46200A17D3B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1004,6 +1066,9 @@
 				AB63DB4B250BB76F00E7825C /* hahagameTests */,
 				AB63DB56250BB76F00E7825C /* hahagameUITests */,
 				AB7714E22514F3AC0061D808 /* Block */,
+				AB881C282515E06900073CE7 /* TheCountdown */,
+				AB881C442515E06B00073CE7 /* TheCountdownTests */,
+				AB881C4F2515E06B00073CE7 /* TheCountdownUITests */,
 				11A19CC424AAE000008E4FD6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1054,6 +1119,9 @@
 				AB63DB48250BB76F00E7825C /* hahagameTests.xctest */,
 				AB63DB53250BB76F00E7825C /* hahagameUITests.xctest */,
 				AB7714E12514F3AC0061D808 /* Block */,
+				AB881C272515E06900073CE7 /* TheCountdown.app */,
+				AB881C412515E06B00073CE7 /* TheCountdownTests.xctest */,
+				AB881C4C2515E06B00073CE7 /* TheCountdownUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1285,6 +1353,42 @@
 				AB82432024C9C9BA0063339B /* main.m */,
 			);
 			path = MinPathSum0064;
+			sourceTree = "<group>";
+		};
+		AB881C282515E06900073CE7 /* TheCountdown */ = {
+			isa = PBXGroup;
+			children = (
+				AB881C292515E06900073CE7 /* AppDelegate.h */,
+				AB881C2A2515E06900073CE7 /* AppDelegate.m */,
+				AB881C2C2515E06900073CE7 /* SceneDelegate.h */,
+				AB881C2D2515E06900073CE7 /* SceneDelegate.m */,
+				AB881C2F2515E06900073CE7 /* ViewController.h */,
+				AB881C302515E06900073CE7 /* ViewController.m */,
+				AB881C322515E06900073CE7 /* Main.storyboard */,
+				AB881C352515E06B00073CE7 /* Assets.xcassets */,
+				AB881C372515E06B00073CE7 /* LaunchScreen.storyboard */,
+				AB881C3A2515E06B00073CE7 /* Info.plist */,
+				AB881C3B2515E06B00073CE7 /* main.m */,
+			);
+			path = TheCountdown;
+			sourceTree = "<group>";
+		};
+		AB881C442515E06B00073CE7 /* TheCountdownTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB881C452515E06B00073CE7 /* TheCountdownTests.m */,
+				AB881C472515E06B00073CE7 /* Info.plist */,
+			);
+			path = TheCountdownTests;
+			sourceTree = "<group>";
+		};
+		AB881C4F2515E06B00073CE7 /* TheCountdownUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB881C502515E06B00073CE7 /* TheCountdownUITests.m */,
+				AB881C522515E06B00073CE7 /* Info.plist */,
+			);
+			path = TheCountdownUITests;
 			sourceTree = "<group>";
 		};
 		AB92E19724D6A46200A17D3B /* CopyRandomList35 */ = {
@@ -1904,6 +2008,59 @@
 			productReference = AB82431E24C9C9BA0063339B /* MinPathSum0064 */;
 			productType = "com.apple.product-type.tool";
 		};
+		AB881C262515E06900073CE7 /* TheCountdown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB881C592515E06B00073CE7 /* Build configuration list for PBXNativeTarget "TheCountdown" */;
+			buildPhases = (
+				AB881C232515E06900073CE7 /* Sources */,
+				AB881C242515E06900073CE7 /* Frameworks */,
+				AB881C252515E06900073CE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheCountdown;
+			productName = TheCountdown;
+			productReference = AB881C272515E06900073CE7 /* TheCountdown.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB881C402515E06B00073CE7 /* TheCountdownTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB881C5A2515E06B00073CE7 /* Build configuration list for PBXNativeTarget "TheCountdownTests" */;
+			buildPhases = (
+				AB881C3D2515E06B00073CE7 /* Sources */,
+				AB881C3E2515E06B00073CE7 /* Frameworks */,
+				AB881C3F2515E06B00073CE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB881C432515E06B00073CE7 /* PBXTargetDependency */,
+			);
+			name = TheCountdownTests;
+			productName = TheCountdownTests;
+			productReference = AB881C412515E06B00073CE7 /* TheCountdownTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB881C4B2515E06B00073CE7 /* TheCountdownUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB881C5B2515E06B00073CE7 /* Build configuration list for PBXNativeTarget "TheCountdownUITests" */;
+			buildPhases = (
+				AB881C482515E06B00073CE7 /* Sources */,
+				AB881C492515E06B00073CE7 /* Frameworks */,
+				AB881C4A2515E06B00073CE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB881C4E2515E06B00073CE7 /* PBXTargetDependency */,
+			);
+			name = TheCountdownUITests;
+			productName = TheCountdownUITests;
+			productReference = AB881C4C2515E06B00073CE7 /* TheCountdownUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		AB92E19524D6A46200A17D3B /* CopyRandomList35 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB92E19C24D6A46200A17D3B /* Build configuration list for PBXNativeTarget "CopyRandomList35" */;
@@ -2320,6 +2477,17 @@
 					AB82431D24C9C9BA0063339B = {
 						CreatedOnToolsVersion = 11.6;
 					};
+					AB881C262515E06900073CE7 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					AB881C402515E06B00073CE7 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = AB881C262515E06900073CE7;
+					};
+					AB881C4B2515E06B00073CE7 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = AB881C262515E06900073CE7;
+					};
 					AB92E19524D6A46200A17D3B = {
 						CreatedOnToolsVersion = 11.6;
 					};
@@ -2441,6 +2609,9 @@
 				AB63DB47250BB76F00E7825C /* hahagameTests */,
 				AB63DB52250BB76F00E7825C /* hahagameUITests */,
 				AB7714E02514F3AC0061D808 /* Block */,
+				AB881C262515E06900073CE7 /* TheCountdown */,
+				AB881C402515E06B00073CE7 /* TheCountdownTests */,
+				AB881C4B2515E06B00073CE7 /* TheCountdownUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -2510,6 +2681,30 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		AB63DB51250BB76F00E7825C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB881C252515E06900073CE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB881C392515E06B00073CE7 /* LaunchScreen.storyboard in Resources */,
+				AB881C362515E06B00073CE7 /* Assets.xcassets in Resources */,
+				AB881C342515E06900073CE7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB881C3F2515E06B00073CE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB881C4A2515E06B00073CE7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2791,6 +2986,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AB881C232515E06900073CE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB881C312515E06900073CE7 /* ViewController.m in Sources */,
+				AB881C2B2515E06900073CE7 /* AppDelegate.m in Sources */,
+				AB881C3C2515E06B00073CE7 /* main.m in Sources */,
+				AB881C2E2515E06900073CE7 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB881C3D2515E06B00073CE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB881C462515E06B00073CE7 /* TheCountdownTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB881C482515E06B00073CE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB881C512515E06B00073CE7 /* TheCountdownUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AB92E19224D6A46200A17D3B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2992,6 +3214,16 @@
 			target = AB63DB29250BB76C00E7825C /* hahagame */;
 			targetProxy = AB63DB54250BB76F00E7825C /* PBXContainerItemProxy */;
 		};
+		AB881C432515E06B00073CE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB881C262515E06900073CE7 /* TheCountdown */;
+			targetProxy = AB881C422515E06B00073CE7 /* PBXContainerItemProxy */;
+		};
+		AB881C4E2515E06B00073CE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB881C262515E06900073CE7 /* TheCountdown */;
+			targetProxy = AB881C4D2515E06B00073CE7 /* PBXContainerItemProxy */;
+		};
 		ABD1BD0E24D563B10098DB30 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = ABD1BCF124D563B00098DB30 /* IsValid0020 */;
@@ -3061,6 +3293,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				AB63DB3F250BB76E00E7825C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AB881C322515E06900073CE7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB881C332515E06900073CE7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB881C372515E06B00073CE7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB881C382515E06B00073CE7 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -3815,6 +4063,137 @@
 			};
 			name = Release;
 		};
+		AB881C532515E06B00073CE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KB7N82RNAZ;
+				INFOPLIST_FILE = TheCountdown/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gdut.TheCountdown;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB881C542515E06B00073CE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KB7N82RNAZ;
+				INFOPLIST_FILE = TheCountdown/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gdut.TheCountdown;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB881C552515E06B00073CE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KB7N82RNAZ;
+				INFOPLIST_FILE = TheCountdownTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gdut.TheCountdownTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheCountdown.app/TheCountdown";
+			};
+			name = Debug;
+		};
+		AB881C562515E06B00073CE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KB7N82RNAZ;
+				INFOPLIST_FILE = TheCountdownTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gdut.TheCountdownTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheCountdown.app/TheCountdown";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB881C572515E06B00073CE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KB7N82RNAZ;
+				INFOPLIST_FILE = TheCountdownUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gdut.TheCountdownUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TheCountdown;
+			};
+			name = Debug;
+		};
+		AB881C582515E06B00073CE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KB7N82RNAZ;
+				INFOPLIST_FILE = TheCountdownUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gdut.TheCountdownUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TheCountdown;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		AB92E19A24D6A46200A17D3B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -4566,6 +4945,33 @@
 			buildConfigurations = (
 				AB82432224C9C9BA0063339B /* Debug */,
 				AB82432324C9C9BA0063339B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB881C592515E06B00073CE7 /* Build configuration list for PBXNativeTarget "TheCountdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB881C532515E06B00073CE7 /* Debug */,
+				AB881C542515E06B00073CE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB881C5A2515E06B00073CE7 /* Build configuration list for PBXNativeTarget "TheCountdownTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB881C552515E06B00073CE7 /* Debug */,
+				AB881C562515E06B00073CE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB881C5B2515E06B00073CE7 /* Build configuration list for PBXNativeTarget "TheCountdownUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB881C572515E06B00073CE7 /* Debug */,
+				AB881C582515E06B00073CE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
